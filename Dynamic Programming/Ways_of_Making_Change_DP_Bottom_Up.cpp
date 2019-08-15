@@ -64,7 +64,7 @@ unsigned long long waysOfMakingChange(int a[], int n, int s){
   	        }
   	    }
   	}
-  	return dp[n][s]
+  	return dp[n][s];
 }
 
 int main(){
